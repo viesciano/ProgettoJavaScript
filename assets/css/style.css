@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #e3e3e3;
+}
+
+.bg-custom {
+  background-color: #233142;
+}
+
+/* FONT section*/
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }  
+
+
+/* GRID  section */
+
+#first-row {
+    height:80px;
+    background-color: #233142;
+    color:#e3e3e3;
+}
+
+.row {
+    height:50px;
+    background-color: #e3e3e3;
+    align-items: center;
+    height:fit-content;
+    padding: 20px 0px;
+    
+}
+
+#first-col {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/*DISPLAY section*/
+
+#display-1 {
+    color: #f95959;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.basic-but,
+.oper-but {
+  background-color: #233142;
+  font-weight: 700;
+  color:#e3e3e3;
+  height:50px;
+  width:70px;
+  border-radius: 4px;
+  border:none;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+  margin:5px;
+}
+
+.oper-but {
+  background-color: #f95959;
+  color: #233142;
+}
+
+.basic-but:hover,
+.oper-but:hover {
+  width: 100px;
+}
+
+.basic-but:active,
+.oper-but:active {
+  position:relative;
+  bottom:-2px;
+  right:-1px;
+  
+}
