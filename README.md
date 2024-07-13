@@ -37,7 +37,10 @@ Incremento / Decremento --> Utilizza i pulsanti + e - per impostare il tempo del
 Start --> Avvia il conto alla rovescia.
 Stop --> Ferma il conto alla rovescia.
 Reset --> Resetta il timer al valore iniziale.
-Screenshot
+
+
+## Screenshot
+![Screenshot del Tiny Timer](assets/imgs/Schermata%202024-07-13%20alle%2011.20.02.png)
 
 ## Contribuire
 Se desideri contribuire al progetto, sentiti libero di fare una fork del repository, apportare le modifiche necessarie e creare una pull request. Tutti i contributi sono benvenuti!
